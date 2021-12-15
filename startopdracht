@@ -1,57 +1,66 @@
-Zigbee
-Zigbee is een draadloze domoticatechnologie, dit betekent technologie die gefocust is op het leven in huis "makkelijker" te maken. 
-Zigbee is in tegenstelling tot WiFi specifiek gefocust op het automatiseren en bedienen van een huis.
+<H1> Zigbee </H1>
 
-Voordelen
-Een voordeel van Zigbee is dat de communicatie tussen apparaten beide kanten op gaat, een apparaat geeft een commando het andere apparaat bevestigd, 
+<H2> Wat is Zigbee? </H2>
+
+<T1> Zigbee is een draadloze domoticatechnologie, dit betekent technologie die gefocust is op het leven in huis "makkelijker" te maken. 
+Het is in tegenstelling tot WiFi specifiek gefocust op het automatiseren en bedienen van een huis. </T1>
+
+<H2> Voordelen </H2>
+
+<T1> Een voordeel van Zigbee is dat de communicatie tussen apparaten beide kanten op gaat, een apparaat geeft een commando het andere apparaat bevestigd, 
 hierdoor wordt er nooit een commando gemist. 
 In tegenstelling tot Z-Wave gebruikt Zigbee dezelfde draadloze band als WiFi en bijvoorbeeld Bluetooth (2.4 GHz).
 Ook is Zigbee erg energiezuinig en relatief betaalbaar, meestal goedkoper dan Z-Wave. 
 En misschien wel 1 van de grootste voordelen van Zigbee is dat alle apparaten met alkaar kunnen communiceren, er is sprake van een mesh-netwerk, 
-hierdoor neemt het bereik en de betrouwbaarheid toe hoe meer apparaten je toevoegt.
+hierdoor neemt het bereik en de betrouwbaarheid toe hoe meer apparaten je toevoegt. </T1>
 
-Nadelen
-Ieder apparaat opzich heeft een vrij klein bereik (15-20 meter in open lucht), door meerdere apparaten toe te voegen kan je dit probleem verholpen worden. 
-Wat ook een nadeel is, is dat voor een Zigbee product ook een Zigbee hub nodig is, omdat je telefoon geen "Zigbee-antenne" heeft.
+<H2>Nadelen </H2>
+
+<T1> Ieder apparaat opzich heeft een vrij klein bereik (15-20 meter in open lucht), door meerdere apparaten toe te voegen kan je dit probleem verholpen worden. 
+Wat ook een nadeel is, is dat voor een Zigbee product ook een Zigbee hub nodig is, omdat je telefoon geen "Zigbee-antenne" heeft. </T1>
 
 
-Z-wave
-Wat is Z-wave?
+<H1> Z-wave </H1>
+<H2>Wat is Z-wave?</H2>
 
-Z-wave is een protocol dat vooral gebruikt wordt voor draadloze communicatie voor domotica. 
-Naast dat Z-wave draadloos is, is het ook nog energiezuinig.
+<T1> Z-wave is een protocol dat vooral gebruikt wordt voor draadloze communicatie voor domotica. 
+Naast dat Z-wave draadloos is, is het ook nog energiezuinig. </T1>
 
-De voordelen van Z-wave
+<H2> De voordelen van Z-wave </H2>
 
-Wat een voordeel is van Z-wave ten opzichte van andere protocollen, is dat het een gestandariseerd protocol is. 
+<T1> Wat een voordeel is van Z-wave ten opzichte van andere protocollen, is dat het een gestandariseerd protocol is. 
 Alle apparaten 'spreken dezelfde taal'. 
 Hierdoor verbinden apparaten makkelijker met elkaar en kun je ze makkelijker aan Homey koppelen.
 Ook is Z-wave erg betrouwbaar omdat aparaten die commando's krijgen deze bevestigen. 
 Hierdoor missen ze nooit een commando en kun je sensoren inzetten als beveiligingssysteem. 
 Ook heeft Z-wave een goed bereik in huis en zit het geen andere signalen in de weg omdat het een andere draadloze band gebruikt dan Wi-Fi en Bluetooth. 
 Ook is Z-wave erg energiezuinig. 
-Z-wave is ook gebouwd als mesh-netwerk, wat het erg betrouwbaar maakt. 
+Z-wave is ook gebouwd als mesh-netwerk, wat het erg betrouwbaar maakt. </T1>
 
-De nadelen van Z-wave
+<H2>De nadelen van Z-wave </H2>
 
-Helaas heeft elk voordeel zijn nadeel. 
+<T1> Helaas heeft elk voordeel zijn nadeel. 
 Zo bevat Z-wave er ook een paar.
-Z-wave is vergeleken met andere protocollen namelijk best wel prijzig. Ook kun je Z-wave apparaten niet met je telefoon verbinden, maar is er een aparte smart home hub nodig.
+Z-wave is vergeleken met andere protocollen namelijk best wel prijzig. Ook kun je Z-wave apparaten niet met je telefoon verbinden, maar is er een aparte smart home hub nodig.</T1>
 
 
-WiFi
-Wat is WiFi?
-WiFi is een draadloos netwerk met een radiofrequentie van 2.4 GHz. WiFi maakt gebruik van een router. 
-Door deze technologie kunnen verschillende apparaten verbinding met elkaar maken door middel van een draadloos netwerk.
+<H1> WiFi </H1>
 
-Voordelen WiFi
-WiFi heeft een grootbereik van zo’n ongeveer 35 meter. Dit veld kun je nog groter maken door WiFi-versterkers toe te voegen. 
+<H2> Wat is WiFi? </H2>
+
+<T1> WiFi is een draadloos netwerk met een radiofrequentie van 2.4 GHz. WiFi maakt gebruik van een router. 
+Door deze technologie kunnen verschillende apparaten verbinding met elkaar maken door middel van een draadloos netwerk. </T1>
+
+<H2> Voordelen WiFi </H2>
+
+<T1> WiFi heeft een grootbereik van zo’n ongeveer 35 meter. Dit veld kun je nog groter maken door WiFi-versterkers toe te voegen. 
 Ook kan WiFi met meerdere apparaten tegelijkertijd verbinding maken, zoals je telefoon en je laptop. 
 Doordat er bij WiFi een certificeerde standaard vereist is, kunnen verschillende merken hierdoor communiceren, omdat ze allemaal aan dezelfde eisen voldoen. 
-Andere draadloze netwerken als Zigbee en Bluetooth werken op dezelfde draadloze band, 2.4Hz, dus kan hier ook mee gecommuniceerd worden.
+Andere draadloze netwerken als Zigbee en Bluetooth werken op dezelfde draadloze band, 2.4Hz, dus kan hier ook mee gecommuniceerd worden. </T1>
 
-Nadelen WiFi
-Er zijn echter ook nadelen. Ondanks het grote bereik wordt het signaal naarmate de afstand snel verzwakt. 
+<H2> Nadelen WiFi </H2>
+
+<T1> Er zijn echter ook nadelen. Ondanks het grote bereik wordt het signaal naarmate de afstand snel verzwakt. 
 Bij teveel ‘apparaatverkeer’ wordt het netwerk steeds trager, 
 dus je kan maar een bepaalt aantal apparaten verbinding laten maken om het WiFi-netwerk zo efficiënt mogelijk te laten werken. 
-Ook worden WiFi-signalen snel verzwakt door obstakels, waardoor je rekening moet houden met het plaatsen van je router.
+Ook worden WiFi-signalen snel verzwakt door obstakels, waardoor je rekening moet houden met het plaatsen van je router. </T1>
