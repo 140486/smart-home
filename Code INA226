@@ -1,4 +1,4 @@
-from micropython import const
+=from micropython import const
 # from adafruit_bus_device.i2c_device import I2CDevice
 
 __version__ = "0.0.0-auto.0"
@@ -141,30 +141,8 @@ class INA226:
         raw_power = _to_signed(self._read_register(_REG_POWER))
         # Calculated power is derived by multiplying raw power value with the power LSB
         return raw_power * self._power_lsb
-# Example calculations for calibration register value, current LSB and power LSB
-# 1. Assuming a 100milliOhm resistor as shunt
-# RSHUNT = 0.1
-#
-# 2. Determine current_lsb
-# Assuming a maximum expected current of 3.6A
-# current_lsb = MaxExpected_I / (2^15)
-# current_lsb = 3.6A / (2^15)
-# current_lsb = 0.0001098632813
-# -> Rounding to "nicer" numbers:
-# current_lsb = 0.0001
-#
-# 3. Setting the power LSB
-# power_lsb = 25 * current_lsb
-# power_lsb = 25 * 0.0001
-# power_lsb = 0.0025
-#
-# 4. Determine calibration register value
-# cal_value = 0.00512 / (RSHUNT * current_lsb)
-# cal_value = 0.00512 / (0.1 * 0.0001)
-# cal_value = 512
-#
-#
-   def set_calibration(self):  # pylint: disable=invalid-name
+
+    def set_calibration(self):  # pylint: disable=invalid-name
         """Configures to INA226 to be able to measure up to 36V and 2A
             of current. Counter overflow occurs at 3.2A.
            ..note :: These calculations assume a 0.1 shunt ohm resistor"""
